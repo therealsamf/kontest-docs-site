@@ -1,13 +1,18 @@
 
+# Default redirect for gamelift-pb
 [[redirects]]
   from = "/gamelift-pb"
   to = "/gamelift-pb/latest/index.html"
   status = 301
 
+# Latest redirect for gamelift-pb
 [[redirects]]
   from = "/gamelift-pb/latest/*"
-  to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.5/:splat"
+  to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.8/:splat"
   status = 200
+
+# gamelift-pb versioned redirects
+#################################################################
 
 [[redirects]]
   from = "/gamelift-pb/0.1.3/*"
@@ -22,4 +27,14 @@
 [[redirects]]
   from = "/gamelift-pb/0.1.5/*"
   to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.5/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/gamelift-pb/0.1.6/*"
+  to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.6/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/gamelift-pb/0.1.8/*"
+  to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.8/:splat"
   status = 200
