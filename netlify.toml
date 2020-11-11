@@ -1,5 +1,10 @@
 
 [[redirects]]
+  from = "/gamelift-pb"
+  to = "/gamelift-pb/latest/index.html"
+  status = 301
+
+[[redirects]]
   from = "/gamelift-pb/latest/*"
   to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.5/:splat"
   status = 200
