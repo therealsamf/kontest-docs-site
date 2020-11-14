@@ -15,7 +15,7 @@
 
 # Latest redirect for gamelift
 [[redirects]]
-  from = "/gamelift-pb/latest/*"
+  from = "/gamelift/latest/*"
   to = "https://d10d3l1h2nwc24.cloudfront.net/0.2.0/:splat"
   status = 200
 
