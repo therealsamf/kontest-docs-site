@@ -1,9 +1,23 @@
 
+# TODO: Eventually I want to add better documentation for gamelift with
+# examples and stuff. The default shouldn't just go to the API docs.
+# Default redirect for gamelift
+[[redirects]]
+  from = "/gamelift"
+  to = "/gamelift/latest/index.html"
+  status = 301
+
 # Default redirect for gamelift-pb
 [[redirects]]
   from = "/gamelift-pb"
   to = "/gamelift-pb/latest/index.html"
   status = 301
+
+# Latest redirect for gamelift
+[[redirects]]
+  from = "/gamelift-pb/latest/*"
+  to = "https://d10d3l1h2nwc24.cloudfront.net/0.2.0/:splat"
+  status = 200
 
 # Latest redirect for gamelift-pb
 [[redirects]]
@@ -11,8 +25,22 @@
   to = "https://d3ap7k91xazrkc.cloudfront.net/0.1.8/:splat"
   status = 200
 
+###############################################################################
+#
+# gamelift versioned redirects
+#
+###############################################################################
+
+[[redirects]]
+  from = "/gamelift/0.2.0/*"
+  to = "https://d10d3l1h2nwc24.cloudfront.net/0.2.0/:splat"
+  status = 200
+
+###############################################################################
+#
 # gamelift-pb versioned redirects
-#################################################################
+#
+###############################################################################
 
 [[redirects]]
   from = "/gamelift-pb/0.1.3/*"
